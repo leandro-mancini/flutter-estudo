@@ -259,6 +259,105 @@ class AlmoxarifadoPage extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(
+                    height: 28,
+                  ),
+                  Card(
+                    elevation: 3,
+                    child: new Container(
+                      padding: new EdgeInsets.only(
+                        left: 20,
+                        right: 20,
+                        top: 30,
+                        bottom: 30,
+                      ),
+                      child: new Column(
+                        children: <Widget>[
+                          Container(
+                            margin: EdgeInsets.only(
+                              bottom: 5,
+                            ),
+                            child: Column(
+                              children: <Widget>[
+                                Container(
+                                  alignment: Alignment.centerLeft,
+                                  child: new Text(
+                                    'Empresa',
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                    ),
+                                  )
+                                ),
+                                Container(
+                                  alignment: Alignment.centerLeft,
+                                  child: new Text(
+                                    'Praxio Tecnologia',
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                    ),
+                                  )
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                              bottom: 5,
+                            ),
+                            child: Column(
+                              children: <Widget>[
+                                Container(
+                                  alignment: Alignment.centerLeft,
+                                  child: new Text(
+                                    'Filial',
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                    ),
+                                  )
+                                ),
+                                Container(
+                                  alignment: Alignment.centerLeft,
+                                  child: new Text(
+                                    'São Paulo',
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                    ),
+                                  )
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                              bottom: 5,
+                            ),
+                            child: Column(
+                              children: <Widget>[
+                                Container(
+                                  alignment: Alignment.centerLeft,
+                                  child: new Text(
+                                    'Garagem',
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                    ),
+                                  )
+                                ),
+                                Container(
+                                  alignment: Alignment.centerLeft,
+                                  child: new Text(
+                                    'George Cobisier',
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                    ),
+                                  )
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  )
                 ],
               ),
             ),
