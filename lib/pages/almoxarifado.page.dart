@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:invent/pages/home.page.dart';
 
 class AlmoxarifadoPage extends StatelessWidget {
   @override
@@ -383,7 +384,14 @@ class AlmoxarifadoPage extends StatelessWidget {
                         ),
                       ),
                     ],
-                  ), onPressed: () { },
+                  ), onPressed: () { 
+                    Navigator.push(
+                      context, 
+                      MaterialPageRoute(
+                        builder: (context) => HomePage(),
+                      )
+                    );
+                  },
                 ),
               ),
             ),
