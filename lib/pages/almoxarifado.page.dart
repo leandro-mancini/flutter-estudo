@@ -364,27 +364,20 @@ class AlmoxarifadoPage extends StatelessWidget {
             ),
             Container(
               height: 40,
-              alignment: Alignment.centerLeft,
-              decoration: BoxDecoration(
-                color: Color(0xFF6200EE),
-                borderRadius: BorderRadius.all(
-                  Radius.circular(40),
-                )
-              ),
-              child: SizedBox.expand(
-                child: FlatButton(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Text(
-                        'CONTINUAR',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 14,
-                        ),
-                      ),
-                    ],
-                  ), onPressed: () { 
+              alignment: Alignment.center,
+              child: SizedBox(
+                width: double.infinity,
+                child: RaisedButton(
+                  color: Color(0xFF6200EE),
+                  shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(40)),
+                  child: Text(
+                    'CONTINUAR',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                    ),
+                  ), 
+                  onPressed: () {
                     Navigator.push(
                       context, 
                       MaterialPageRoute(
