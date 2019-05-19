@@ -65,34 +65,24 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 20,
-            ),
-            SizedBox(
-              height: 40,
+              height: 80,
             ),
             Container(
               height: 40,
-              alignment: Alignment.centerLeft,
-              decoration: BoxDecoration(
-                color: Color(0xFF6200EE),
-                borderRadius: BorderRadius.all(
-                  Radius.circular(40),
-                )
-              ),
-              child: SizedBox.expand(
-                child: FlatButton(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Text(
-                        'ENTRAR',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 14,
-                        ),
-                      ),
-                    ],
-                  ), onPressed: () {
+              alignment: Alignment.center,
+              child: SizedBox(
+                width: double.infinity,
+                child: RaisedButton(
+                  color: Color(0xFF6200EE),
+                  shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(40)),
+                  child: Text(
+                    'ENTRAR',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                    ),
+                  ), 
+                  onPressed: () {
                     Navigator.push(
                       context, 
                       MaterialPageRoute(
